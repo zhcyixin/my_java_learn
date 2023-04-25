@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b0f08a0f-2200-40c2-90d5-24554d517bce" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\work\maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2J7yXYxI0u7O6bO64Z5Iu2S58nU" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/Program Files (x86)/Git/bin/git.exe" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.HungarySingleton">
+    <configuration name="HungarySingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhc.javabase.designpattern.sg.HungarySingleton" />
+      <module name="java-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhc.javabase.designpattern.sg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LazySinglelton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhc.javabase.designpattern.sg.LazySinglelton" />
+      <module name="java-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhc.javabase.designpattern.sg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUseIndex.testAggregationQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhc.javabase.elasticsearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhc.javabase.elasticsearch" />
+      <option name="MAIN_CLASS_NAME" value="com.zhc.javabase.elasticsearch.TestUseIndex" />
+      <option name="METHOD_NAME" value="testAggregationQuery" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUseIndex.testBoolQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhc.javabase.elasticsearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhc.javabase.elasticsearch" />
+      <option name="MAIN_CLASS_NAME" value="com.zhc.javabase.elasticsearch.TestUseIndex" />
+      <option name="METHOD_NAME" value="testBoolQuery" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUseIndex.testTermQueryData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhc.javabase.elasticsearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhc.javabase.elasticsearch" />
+      <option name="MAIN_CLASS_NAME" value="com.zhc.javabase.elasticsearch.TestUseIndex" />
+      <option name="METHOD_NAME" value="testTermQueryData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaBaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="java-base" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhc.javabase.JavaBaseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HungarySingleton" />
+        <item itemvalue="Application.LazySinglelton" />
+        <item itemvalue="JUnit.TestUseIndex.testAggregationQuery" />
+        <item itemvalue="JUnit.TestUseIndex.testBoolQuery" />
+        <item itemvalue="JUnit.TestUseIndex.testTermQueryData" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0f08a0f-2200-40c2-90d5-24554d517bce" name="Default Changelist" comment="" />
+      <created>1671443455959</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671443455959</updated>
+      <workItem from="1671443457312" duration="1199000" />
+      <workItem from="1671444682893" duration="199000" />
+      <workItem from="1671444898399" duration="198000" />
+      <workItem from="1671499325213" duration="12769000" />
+      <workItem from="1671586558553" duration="15856000" />
+      <workItem from="1671672684393" duration="1944000" />
+      <workItem from="1671765116386" duration="6246000" />
+      <workItem from="1672839374937" duration="690000" />
+      <workItem from="1674008748446" duration="605000" />
+      <workItem from="1675304475036" duration="1201000" />
+      <workItem from="1675317820180" duration="10000" />
+      <workItem from="1675343001658" duration="2508000" />
+      <workItem from="1675388269018" duration="1564000" />
+      <workItem from="1675646333055" duration="748000" />
+      <workItem from="1675661917454" duration="593000" />
+      <workItem from="1675733417632" duration="27000" />
+      <workItem from="1677500382940" duration="839000" />
+      <workItem from="1677588164151" duration="1180000" />
+      <workItem from="1677634332138" duration="3312000" />
+      <workItem from="1677665002348" duration="594000" />
+      <workItem from="1677720525944" duration="1259000" />
+      <workItem from="1677810264655" duration="11967000" />
+      <workItem from="1678930269400" duration="4652000" />
+      <workItem from="1682416016420" duration="259000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
