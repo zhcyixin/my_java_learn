@@ -1,4 +1,4 @@
-package com.zhc.javabase.java8;
+package com.zhc.javabase.java8.function;
 
 /**
  * Lambda表达式使用
