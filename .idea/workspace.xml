@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0f08a0f-2200-40c2-90d5-24554d517bce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/javabase/java8/function/FunctionInterfaceUse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/my_java_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my_java_learn.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/javabase/java8/HelloFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/javabase/java8/function/HelloFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/javabase/java8/LambdaUse.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/javabase/java8/function/LambdaUse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/javabase/java8/StreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/javabase/java8/StreamDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +54,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/Program Files (x86)/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.32413793" />
@@ -77,26 +72,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FunctionInterfaceUse">
+  <component name="RunManager" selected="JUnit.StreamDemoTest.testStreamCollect">
     <configuration name="FunctionInterfaceUse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhc.javabase.java8.function.FunctionInterfaceUse" />
       <module name="java-base" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zhc.javabase.java8.function.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HungarySingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhc.javabase.designpattern.sg.HungarySingleton" />
-      <module name="java-base" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhc.javabase.designpattern.sg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,49 +128,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="my_java_learn" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="my_java_learn" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+    <configuration name="StreamDemoTest.testStreamCollect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhc.javabase.java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhc.javabase.java8" />
+      <option name="MAIN_CLASS_NAME" value="com.zhc.javabase.java8.StreamDemoTest" />
+      <option name="METHOD_NAME" value="testStreamCollect" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -209,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StreamDemoTest.testStreamCollect" />
         <item itemvalue="Application.FunctionInterfaceUse" />
         <item itemvalue="Application.LambdaUse" />
         <item itemvalue="Application.ResourcePoolConfig" />
         <item itemvalue="JUnit.ExpressionUtilUseTest.testEvalUse" />
-        <item itemvalue="Application.HungarySingleton" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +202,9 @@
       <workItem from="1677810264655" duration="11967000" />
       <workItem from="1678930269400" duration="4652000" />
       <workItem from="1682416016420" duration="926000" />
-      <workItem from="1682480595480" duration="12027000" />
+      <workItem from="1682480595480" duration="12851000" />
+      <workItem from="1682661263183" duration="3731000" />
+      <workItem from="1683164976450" duration="5926000" />
     </task>
     <task id="LOCAL-00001" summary="添加建造者模式使用示例">
       <created>1682488937286</created>
@@ -267,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682495564213</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="函数式接口更新">
+      <created>1682503239116</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682503239116</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +249,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加建造者模式使用示例" />
     <MESSAGE value="添加代理模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加代理模式" />
+    <MESSAGE value="函数式接口更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="函数式接口更新" />
   </component>
 </project>

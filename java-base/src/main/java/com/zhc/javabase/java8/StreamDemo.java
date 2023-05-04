@@ -4,6 +4,7 @@ import lombok.Builder;
 import lombok.Data;
 import org.springframework.stereotype.Service;
 
+import java.math.BigDecimal;
 import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collector;
@@ -50,6 +51,7 @@ public class StreamDemo {
 
     public void streamMap(){
         List<UserInfo> userInfoList = builderData();
+        userInfoList.stream().map(UserInfo::getAge).forEach(System.out::println);
         Stream.of(1,2).map(new Function<Integer, Integer>(){
             @Override
             public Integer apply(Integer param){
@@ -59,18 +61,23 @@ public class StreamDemo {
     }
 
     public void streamFlatMap(){
-        List<String> list1 = Arrays.asList("m,k,l,a", "1,3,5,7");
-        List<String> listNew = list1.stream().flatMap(o -> {
+        List<String> list1 = Arrays.asList("h,e,l,l", "1,2,3,4");
+        List<String> list2 = list1.stream().flatMap(o -> {
             String[] split  = o.split(",");
             return Arrays.stream(split);
         }).collect(Collectors.toList());
-        System.out.println("处理前的集合：" + list1);
-        System.out.println("处理后的集合：" + listNew);
+        System.out.println("处理前：" + list1);
+        System.out.println("处理后：" + list2);
     }
 
     public void streamSorted(){
         List<UserInfo> userInfoList = builderData();
         userInfoList.stream().sorted(Comparator.comparing(UserInfo::getAge).reversed()).forEach(System.out::println);
+    }
+
+    public void streamLimit(){
+        List<UserInfo> userInfoList = builderData();
+        userInfoList.stream().limit(3).forEach(System.out::println);
     }
 
     public void streamMatch(){
@@ -95,6 +102,16 @@ public class StreamDemo {
         Map<String,Double> map1 = userInfoList.stream().collect(Collectors.groupingBy(UserInfo::getName, Collectors.averagingLong(UserInfo::getAge)));
 
         TreeMap<String,Double> map2 = userInfoList.stream().collect(Collectors.groupingBy(UserInfo::getName,TreeMap::new ,Collectors.averagingLong(UserInfo::getAge)));
+
+        Integer sum = userInfoList.stream().mapToInt(UserInfo::getAge).sum();
+        Optional<UserInfo> optionalUserInfo = userInfoList.stream().max(Comparator.comparing(UserInfo::getAge));
+
+        Integer maxAge = userInfoList.stream().collect(Collectors.collectingAndThen(Collectors.maxBy(Comparator.comparing(UserInfo::getAge)), Optional::get)).getAge();
+        optionalUserInfo.ifPresent(o-> System.out.println("Collect maxBy is :" + o.getAge()));
+
+        Map<Boolean, List<UserInfo>> booleanListMap = userInfoList.stream().collect(Collectors.partitioningBy(item -> item.getAge() > 27));
+
+        userInfoList.stream().map(o -> new BigDecimal(String.valueOf(o.getAge()))).collect(Collectors.reducing(BigDecimal.ZERO,BigDecimal::add));
     }
 
     public void streamJoin(){
