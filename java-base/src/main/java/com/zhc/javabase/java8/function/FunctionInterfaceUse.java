@@ -1,6 +1,7 @@
 package com.zhc.javabase.java8.function;
 
 import java.util.function.Consumer;
+import java.util.function.Predicate;
 
 /**
  * 常见函数式接口使用
@@ -21,6 +22,16 @@ public class FunctionInterfaceUse {
                 System.out.printf("consumerAccept--> {%s}%n", (s + s + 1));
             }
         });
+    }
+
+    public static void predictTest(){
+        Predicate<Integer> predicate = integer -> {
+            if(integer > 0){
+                return true;
+            }
+            return false;
+        };
+        predicate.test(3);
     }
 
     private static <T> void handleConsumer(T t, Consumer<T> consumer){

@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0f08a0f-2200-40c2-90d5-24554d517bce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_68.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_68.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_68.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/javabase/aop/AopUseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/javabase/aop/AopUseController1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/javabase/aop/CustomAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/javabase/aop/CustomAnnotationAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/javabase/java8/StreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/javabase/java8/StreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/javabase/java8/function/FunctionInterfaceUse.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/javabase/java8/function/FunctionInterfaceUse.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +68,10 @@
   </component>
   <component name="ProjectId" id="2J7yXYxI0u7O6bO64Z5Iu2S58nU" />
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -59,6 +81,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.32413793" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\learn\my_java_learn" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -72,7 +99,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StreamDemoTest.testStreamCollect">
+  <component name="RunManager" selected="Spring Boot.JavaBaseApplication">
     <configuration name="FunctionInterfaceUse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhc.javabase.java8.function.FunctionInterfaceUse" />
       <module name="java-base" />
@@ -144,20 +171,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaBaseApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="java-base" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhc.JavaBaseApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="JavaBaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="java-base" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhc.javabase.JavaBaseApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhc.JavaBaseApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.FunctionInterfaceUse" />
+      <item itemvalue="Application.LambdaUse" />
+      <item itemvalue="Application.ResourcePoolConfig" />
+      <item itemvalue="JUnit.ExpressionUtilUseTest.testEvalUse" />
+      <item itemvalue="JUnit.StreamDemoTest.testStreamCollect" />
+      <item itemvalue="Spring Boot.JavaBaseApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.StreamDemoTest.testStreamCollect" />
@@ -204,7 +233,8 @@
       <workItem from="1682416016420" duration="926000" />
       <workItem from="1682480595480" duration="12851000" />
       <workItem from="1682661263183" duration="3731000" />
-      <workItem from="1683164976450" duration="5926000" />
+      <workItem from="1683164976450" duration="8818000" />
+      <workItem from="1683772306908" duration="6162000" />
     </task>
     <task id="LOCAL-00001" summary="添加建造者模式使用示例">
       <created>1682488937286</created>
@@ -227,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682503239116</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="更新stream使用">
+      <created>1683171055955</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683171055955</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +287,7 @@
     <MESSAGE value="添加建造者模式使用示例" />
     <MESSAGE value="添加代理模式" />
     <MESSAGE value="函数式接口更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="函数式接口更新" />
+    <MESSAGE value="更新stream使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新stream使用" />
   </component>
 </project>
