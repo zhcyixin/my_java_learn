@@ -59,4 +59,8 @@ public class OptionalDemoTest {
         private String memo;
 
     }
+    @Test
+    void testOptionalGet(){
+        optionalDemo.optionalGet();
+    }
 }

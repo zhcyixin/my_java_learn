@@ -17,4 +17,17 @@ public class OptionalDemo {
         Optional<Integer> op = Optional.empty();
         System.out.println("空对象为:"+op);
     }
+
+    public void optionalGet(){
+        Optional<String> optional = Optional.of("Hello optional");
+        System.out.println("optional get is :"+optional.get());
+        optional.ifPresent(System.out::println);
+        String aa = optional.orElse("haha");
+        System.out.println(aa);
+        try {
+            String bb = optional.orElseThrow(() -> new Exception("抛出异常"));
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
 }
