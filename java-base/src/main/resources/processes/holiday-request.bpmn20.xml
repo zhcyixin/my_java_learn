@@ -6,7 +6,7 @@
     <userTask id="sid-4cb64d76-2961-4a94-8cf1-65f3406b9202" name="组长审核" flowable:assignee="#{zuzhangTask}"/>
     <exclusiveGateway id="sid-125850ae-c546-4880-a60f-f9a22606098b"/>
     <userTask id="sid-eacac588-42da-4992-8d1f-43ce81e27e2b" name="经理审核" flowable:assignee="#{managerTask}"/>
-    <serviceTask id="sid-f278cea0-5330-41f5-859a-8a9a4d21924b" flowable:exclusive="true" name="发送失败提示" flowable:class="com.zhc.flow.FlowableDemo"/>
+    <serviceTask id="sid-f278cea0-5330-41f5-859a-8a9a4d21924b" flowable:exclusive="true" name="发送失败提示" flowable:class="com.zhc.flow.FlowableService"/>
     <exclusiveGateway id="sid-a308165b-d10c-4e5d-996b-1cc9b1ce1679"/>
     <endEvent id="sid-499cad4b-1cdc-4cea-9216-eb87c0f39cf5"/>
     <sequenceFlow id="sid-695c966b-fc31-4d8c-8352-814c0e5c6487" sourceRef="sid-4975e683-7540-4236-a72d-92d593255934" targetRef="sid-31650766-a5c7-4e47-a23f-ba9c9238a548"/>

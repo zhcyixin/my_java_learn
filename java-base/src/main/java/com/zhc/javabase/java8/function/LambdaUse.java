@@ -41,6 +41,11 @@ public class LambdaUse {
         LambdaUse lambdaUse = new LambdaUse();
         lambdaUse.lambda("你好匿名内部类。");
         lambdaUse.implementsClass();
+        Test02 test02 = (a) -> {
+            System.out.println("多行代码要带花括号和返回值");
+            return a + 1;
+        };
+        test02.test(12);
     }
     // 匿名内部类：可以是接口，也可以是抽象类，还可以是具体类
     // Lambda表达式：只可能是接口,如果接口中仅有一个抽象方法，可以使用Lambda表达式，也可以使用匿名表达式，

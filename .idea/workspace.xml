@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0f08a0f-2200-40c2-90d5-24554d517bce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/flow/FlowableController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/flow/FlowableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-base/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-base/src/main/resources/processes/holiday-request.bpmn20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-base/src/test/java/com/zhc/flow/FlowableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/flow/FlowableConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/javabase/java8/function/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/javabase/java8/function/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/resources/财务报销流程.bpmn20.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/flow/FlowableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/flow/FlowableService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/javabase/java8/function/LambdaUse.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/javabase/java8/function/LambdaUse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/src/main/resources/processes/holiday-request.bpmn20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/resources/processes/holiday-request.bpmn20.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/src/test/java/com/zhc/flow/FlowableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/test/java/com/zhc/flow/FlowableTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +41,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="new-flowable-diagram.bpmn20" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -64,27 +67,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/work/learn/my_java_learn/java-base/src/main/java/com/zhc/javabase/aop",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "bccd6a5bae751b993ab03016d38ecaef",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/work/learn/my_java_learn/java-base/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;bccd6a5bae751b993ab03016d38ecaef&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\learn\my_java_learn\java-base\src\main\resources" />
       <recent name="D:\work\learn\my_java_learn\java-base\src\main\java\com\zhc\javabase\aop" />
       <recent name="D:\work\learn\my_java_learn" />
     </key>
@@ -92,23 +97,11 @@
       <recent name="D:\work\learn\my_java_learn\java-base\src\main\resources\process" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zhc.javabase.java8.function" />
       <recent name="com.zhc.javabase.aop" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FlowableTest.askForLeave">
-    <configuration name="CarCglibAgent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhc.javabase.aop.dyn.CarCglibAgent" />
-      <module name="java-base" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhc.javabase.aop.dyn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.JavaBaseApplication">
     <configuration name="HolidayRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhc.flow.HolidayRequest" />
       <module name="java-base" />
@@ -118,38 +111,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DynAgentTest.testJdkAgent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-base" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhc.javabase.aop.dyn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zhc.javabase.aop.dyn" />
-      <option name="MAIN_CLASS_NAME" value="com.zhc.javabase.aop.dyn.DynAgentTest" />
-      <option name="METHOD_NAME" value="testJdkAgent" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DynAgentTest.testJdkAgent2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-base" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhc.javabase.aop.dyn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zhc.javabase.aop.dyn" />
-      <option name="MAIN_CLASS_NAME" value="com.zhc.javabase.aop.dyn.DynAgentTest" />
-      <option name="METHOD_NAME" value="testJdkAgent2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -170,6 +131,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FlowableTest.testDeployFlow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhc.flow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhc.flow" />
+      <option name="MAIN_CLASS_NAME" value="com.zhc.flow.FlowableTest" />
+      <option name="METHOD_NAME" value="testDeployFlow" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlowableTest.testGetTaskListByUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhc.flow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhc.flow" />
+      <option name="MAIN_CLASS_NAME" value="com.zhc.flow.FlowableTest" />
+      <option name="METHOD_NAME" value="testGetTaskListByUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlowableTest.testStartFlow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhc.flow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhc.flow" />
+      <option name="MAIN_CLASS_NAME" value="com.zhc.flow.FlowableTest" />
+      <option name="METHOD_NAME" value="testStartFlow" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JavaBaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="java-base" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhc.JavaBaseApplication" />
@@ -179,19 +188,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.HolidayRequest" />
-      <item itemvalue="Application.CarCglibAgent" />
+      <item itemvalue="JUnit.FlowableTest.testDeployFlow" />
+      <item itemvalue="JUnit.FlowableTest.testGetTaskListByUser" />
+      <item itemvalue="JUnit.FlowableTest.testStartFlow" />
       <item itemvalue="JUnit.FlowableTest.askForLeave" />
-      <item itemvalue="JUnit.DynAgentTest.testJdkAgent" />
-      <item itemvalue="JUnit.DynAgentTest.testJdkAgent2" />
       <item itemvalue="Spring Boot.JavaBaseApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FlowableTest.testGetTaskListByUser" />
+        <item itemvalue="JUnit.FlowableTest.testStartFlow" />
+        <item itemvalue="JUnit.FlowableTest.testDeployFlow" />
         <item itemvalue="JUnit.FlowableTest.askForLeave" />
         <item itemvalue="Application.HolidayRequest" />
-        <item itemvalue="Application.CarCglibAgent" />
-        <item itemvalue="JUnit.DynAgentTest.testJdkAgent2" />
-        <item itemvalue="JUnit.DynAgentTest.testJdkAgent" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +245,16 @@
       <workItem from="1683772306908" duration="7317000" />
       <workItem from="1683885496226" duration="1798000" />
       <workItem from="1684115195865" duration="15858000" />
-      <workItem from="1684200324698" duration="13223000" />
+      <workItem from="1684200324698" duration="16679000" />
+      <workItem from="1684286245042" duration="8165000" />
+      <workItem from="1684392187253" duration="8635000" />
+      <workItem from="1684459615064" duration="1938000" />
+      <workItem from="1684564035804" duration="1630000" />
+      <workItem from="1684674396097" duration="1494000" />
+      <workItem from="1684719324977" duration="1804000" />
+      <workItem from="1684767312473" duration="1216000" />
+      <workItem from="1684805720820" duration="5211000" />
+      <workItem from="1684892032713" duration="567000" />
     </task>
     <task id="LOCAL-00001" summary="添加建造者模式使用示例">
       <created>1682488937286</created>
@@ -280,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684154384978</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="添加工作流flowable集成">
+      <created>1684224655971</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684224655971</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,6 +329,7 @@
     <MESSAGE value="更新stream使用" />
     <MESSAGE value="添加aop使用示例代码" />
     <MESSAGE value="添加动态代理和静态代理示例" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加动态代理和静态代理示例" />
+    <MESSAGE value="添加工作流flowable集成" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加工作流flowable集成" />
   </component>
 </project>
