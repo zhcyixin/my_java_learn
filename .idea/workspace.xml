@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0f08a0f-2200-40c2-90d5-24554d517bce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/flow/FlowableConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/javabase/java8/function/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/javabase/java8/function/Test02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-base/src/main/resources/财务报销流程.bpmn20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/test/java/com/zhc/javabase/java8/StreamTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/flow/FlowableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/flow/FlowableService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/javabase/java8/function/LambdaUse.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/zhc/javabase/java8/function/LambdaUse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/resources/processes/holiday-request.bpmn20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/resources/processes/holiday-request.bpmn20.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/test/java/com/zhc/flow/FlowableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/test/java/com/zhc/flow/FlowableTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +34,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="new-flowable-diagram.bpmn20" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -101,52 +93,7 @@
       <recent name="com.zhc.javabase.aop" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.JavaBaseApplication">
-    <configuration name="HolidayRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhc.flow.HolidayRequest" />
-      <module name="java-base" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhc.flow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FlowableTest.askForLeave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-base" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhc.flow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zhc.flow" />
-      <option name="MAIN_CLASS_NAME" value="com.zhc.flow.FlowableTest" />
-      <option name="METHOD_NAME" value="askForLeave" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FlowableTest.testDeployFlow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-base" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhc.flow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zhc.flow" />
-      <option name="MAIN_CLASS_NAME" value="com.zhc.flow.FlowableTest" />
-      <option name="METHOD_NAME" value="testDeployFlow" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.StreamTest.testCollect">
     <configuration name="FlowableTest.testGetTaskListByUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-base" />
       <extension name="coverage">
@@ -163,17 +110,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlowableTest.testStartFlow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamTest.testAggregation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-base" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhc.flow.*" />
+          <option name="PATTERN" value="com.zhc.javabase.java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zhc.flow" />
-      <option name="MAIN_CLASS_NAME" value="com.zhc.flow.FlowableTest" />
-      <option name="METHOD_NAME" value="testStartFlow" />
+      <option name="PACKAGE_NAME" value="com.zhc.javabase.java8" />
+      <option name="MAIN_CLASS_NAME" value="com.zhc.javabase.java8.StreamTest" />
+      <option name="METHOD_NAME" value="testAggregation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamTest.testCollect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhc.javabase.java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhc.javabase.java8" />
+      <option name="MAIN_CLASS_NAME" value="com.zhc.javabase.java8.StreamTest" />
+      <option name="METHOD_NAME" value="testCollect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamTest.testFilter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhc.javabase.java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhc.javabase.java8" />
+      <option name="MAIN_CLASS_NAME" value="com.zhc.javabase.java8.StreamTest" />
+      <option name="METHOD_NAME" value="testFilter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamTest.testMapAndFlatMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhc.javabase.java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhc.javabase.java8" />
+      <option name="MAIN_CLASS_NAME" value="com.zhc.javabase.java8.StreamTest" />
+      <option name="METHOD_NAME" value="testMapAndFlatMap" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -187,20 +182,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HolidayRequest" />
-      <item itemvalue="JUnit.FlowableTest.testDeployFlow" />
+      <item itemvalue="JUnit.StreamTest.testAggregation" />
+      <item itemvalue="JUnit.StreamTest.testCollect" />
+      <item itemvalue="JUnit.StreamTest.testMapAndFlatMap" />
+      <item itemvalue="JUnit.StreamTest.testFilter" />
       <item itemvalue="JUnit.FlowableTest.testGetTaskListByUser" />
-      <item itemvalue="JUnit.FlowableTest.testStartFlow" />
-      <item itemvalue="JUnit.FlowableTest.askForLeave" />
       <item itemvalue="Spring Boot.JavaBaseApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StreamTest.testCollect" />
+        <item itemvalue="JUnit.StreamTest.testMapAndFlatMap" />
+        <item itemvalue="JUnit.StreamTest.testAggregation" />
+        <item itemvalue="JUnit.StreamTest.testFilter" />
         <item itemvalue="JUnit.FlowableTest.testGetTaskListByUser" />
-        <item itemvalue="JUnit.FlowableTest.testStartFlow" />
-        <item itemvalue="JUnit.FlowableTest.testDeployFlow" />
-        <item itemvalue="JUnit.FlowableTest.askForLeave" />
-        <item itemvalue="Application.HolidayRequest" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +249,12 @@
       <workItem from="1684719324977" duration="1804000" />
       <workItem from="1684767312473" duration="1216000" />
       <workItem from="1684805720820" duration="5211000" />
-      <workItem from="1684892032713" duration="567000" />
+      <workItem from="1684892032713" duration="1783000" />
+      <workItem from="1684978177323" duration="1798000" />
+      <workItem from="1685105759009" duration="4439000" />
+      <workItem from="1685112429098" duration="144000" />
+      <workItem from="1685150177756" duration="6175000" />
+      <workItem from="1685187463988" duration="3730000" />
     </task>
     <task id="LOCAL-00001" summary="添加建造者模式使用示例">
       <created>1682488937286</created>
@@ -305,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684224655971</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="添加匿名内部类">
+      <created>1684892624397</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684892624397</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +337,7 @@
     <MESSAGE value="添加aop使用示例代码" />
     <MESSAGE value="添加动态代理和静态代理示例" />
     <MESSAGE value="添加工作流flowable集成" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加工作流flowable集成" />
+    <MESSAGE value="添加匿名内部类" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加匿名内部类" />
   </component>
 </project>
