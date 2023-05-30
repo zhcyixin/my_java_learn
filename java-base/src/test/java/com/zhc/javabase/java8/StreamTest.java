@@ -98,9 +98,7 @@ public class StreamTest {
          */
         Optional<String> findAny = userList.parallelStream().filter(o -> o.getAge() > 18).map(User::getName).findAny();
         System.out.println("满足条件任意一个用户姓名为:"+ findAny.get());
-        findAny.ifPresent(item -> {
-            System.out.println("满足条件任意一个用户姓名为:"+ item);
-        });
+        findAny.ifPresent(item -> System.out.println("满足条件任意一个用户姓名为:"+ item));
         /**
          * 是否有一个满足
          */
@@ -210,7 +208,7 @@ public class StreamTest {
         /**
          * toCollection 转为指定类型的集合
          */
-        userList.stream().collect(Collectors.toCollection(ArrayList::new));
+        userList.stream().collect(Collectors.toConcurrentMap(User::getName,p->p));
         /**
          * 包裹收集器，对归纳的结果进行二次处理
          * 按照性别去重，并转为List
